@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # Author: Markus Bassermann
 # 05/10/2021
-# Compression method adapted from https://github.com/theeko74/pdfc/blob/master/pdf_compressor.py
+# pdfc adapted from https://github.com/theeko74/pdfc/
 
 import argparse
 from typing import List
@@ -12,10 +12,11 @@ import os
 import datetime
 import shutil
 
-#! TODO
+#! TODO / Ideas
 # comprehensive logging-file
 # test OS-agnosticism
 # Option to ignore high compression level but allow lower level for specific files?
+# Argument to ignore all ignore-files? Or deleting them instead of compression?
 
 # Constants
 ZOTERO_PATH = "D:/Zotero" # Path to Zotero-main-directory
