@@ -29,8 +29,8 @@ Available arguments (all optional):
 Use at own risk :) Aborting mid-compression can result in corrupted pdf-files. By default, backups are created in your zotero-directory, mirroring the structure of the storage-directory.
 
 ## Ignoring files
-* To ignore a specific PDF add a file named `.zbc.ignore` to it's directory.
-* To ignore specific compression levels for a pdf, add `.zbc.p0-compressed` to it's directory, with 0 being any number from 0 to 4. This compression level and any lower level won't be applied. **Note** ZBC also adds this file automatically after a successful run.
+* To ignore a specific PDF add a file named `.zbc.ignore` to its directory.
+* To ignore specific compression levels for a pdf, add `.zbc.p0-compressed` to its directory, with 0 being any number from 0 to 4. This compression level and any lower level won't be applied. **Note** ZBC also adds this file automatically after a successful run.
 
 ## Credits/Thanks
 * Sylvain Carlioz for [pdfc](https://github.com/theeko74/pdfc).
