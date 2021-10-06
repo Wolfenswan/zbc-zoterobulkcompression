@@ -1,6 +1,6 @@
 # Zotero Bulk PDF Compression
 
-A commandline tool to compress all PDFs in Zotero's "storage"-directory, using ghostscript.
+A commandline tool to compress all PDFs in Zotero's "storage"-directory, using ghostscript. Adapted theeko74's [single-file compression script](https://github.com/theeko74/pdfc).
 
 ## Setup & Requirements
 
@@ -24,3 +24,7 @@ Available arguments (all optional):
 * -n[o]b[ackup]: Script will **not** create a backup for each pdf
 * -d[ryrun]: Script will only list all pdfs it found, without any actual compression
 * -max: all files with a kb-size > max will be compressed | default: 5000
+
+## Credits/Thanks
+* Sylvain Carlioz for [pdfc](https://github.com/theeko74/pdfc).
+* skjerns & runcioa for [their pull request and comments](https://github.com/theeko74/pdfc/pull/4)
