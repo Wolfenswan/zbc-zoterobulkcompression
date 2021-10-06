@@ -13,7 +13,7 @@ A commandline tool to compress all PDFs in Zotero's "storage"-directory, using g
 
 ## Usage
 
-Run `zoterobulkcompression.py` as python-script through terminal.
+Run `zoterobulkcompression.py` as python-script through terminal. By default, backups will be created for each file in the Zotero main-directory.
 
 Available arguments (all optional):
 
@@ -24,6 +24,10 @@ Available arguments (all optional):
 * -n[o]b[ackup]: Script will **not** create a backup for each pdf
 * -d[ryrun]: Script will only list all pdfs it found, without any actual compression
 * -max: all files with a kb-size > max will be compressed | default: 5000
+
+## Ignoring files
+* To ignore a specific PDF add a file named `.zbc.ignore` to it's directory.
+* To ignore specific compression levels for a pdf, add `.zbc.p0-compressed` to it's directory, with 0 being any number from 0 to 4. This compression level and any lower level won't be applied. **Note** ZBC also adds this file automatically after a successful run.
 
 ## Credits/Thanks
 * Sylvain Carlioz for [pdfc](https://github.com/theeko74/pdfc).

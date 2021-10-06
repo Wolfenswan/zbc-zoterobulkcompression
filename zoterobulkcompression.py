@@ -13,9 +13,9 @@ import datetime
 import shutil
 
 #! TODO
-# better, comprehensive logging
+# comprehensive logging-file
 # test OS-agnosticism
-# Readme.md file
+# Option to ignore high compression level but allow lower level for specific files?
 
 # Constants
 ZOTERO_PATH = "D:/Zotero" # Path to Zotero-main-directory
