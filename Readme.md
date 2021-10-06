@@ -25,6 +25,9 @@ Available arguments (all optional):
 * -d[ryrun]: Script will only list all pdfs it found, without any actual compression
 * -max: all files with a kb-size > max will be compressed | default: 5000
 
+### Backups & Disclaimer
+Use at own risk :) Aborting mid-compression can result in corrupted pdf-files. By default, backups are created in your zotero-directory, mirroring the structure of the storage-directory.
+
 ## Ignoring files
 * To ignore a specific PDF add a file named `.zbc.ignore` to it's directory.
 * To ignore specific compression levels for a pdf, add `.zbc.p0-compressed` to it's directory, with 0 being any number from 0 to 4. This compression level and any lower level won't be applied. **Note** ZBC also adds this file automatically after a successful run.
@@ -32,3 +35,6 @@ Available arguments (all optional):
 ## Credits/Thanks
 * Sylvain Carlioz for [pdfc](https://github.com/theeko74/pdfc).
 * skjerns & runcioa for [their pull request and comments](https://github.com/theeko74/pdfc/pull/4)
+
+## License
+Go wild. MIT, I guess?
